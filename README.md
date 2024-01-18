@@ -17,11 +17,5 @@ This project aims to revolutionize the way financial services websites engage wi
 
 Refer to the `Architecture.png` in this repository for a detailed view of the proposed system architecture.
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-What things you need to install the software and how to install them:
 

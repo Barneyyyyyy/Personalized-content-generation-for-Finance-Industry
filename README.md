@@ -6,7 +6,7 @@ This project aims to revolutionize the way financial services websites engage wi
 
 ## Features
 
-- **Personalized Content**: Generate content tailored for checking accounts, savings accounts, mortgages, and more.
+- **Personalized Content**: Generate content tailored for checking accounts, savings accounts, and credit cards.
 - **Diverse Audience Engagement**: Target content to international students, foreign workers, and permanent residents.
 - **Adaptive Tone**: Craft the content tone to be precise, balanced, or creative based on client strategies.
 - **React Front-End**: A sleek, user-friendly interface for content customization and interaction.

@@ -16,6 +16,3 @@ This project aims to revolutionize the way financial services websites engage wi
 ## Architecture
 
 Refer to the `Architecture.png` in this repository for a detailed view of the proposed system architecture.
-
-
-

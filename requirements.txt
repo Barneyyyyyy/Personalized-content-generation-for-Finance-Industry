@@ -2,10 +2,7 @@ openai
 pandas
 numpy
 python-dotenv
-langchain
-faiss-cpu
-sentence-transformers
-unstructured
-chromadb
-tiktoken
 praw
+ucimlrepo
+matplotlib
+wordcloud

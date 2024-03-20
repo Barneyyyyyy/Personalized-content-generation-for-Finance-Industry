@@ -6,3 +6,5 @@ praw
 ucimlrepo
 matplotlib
 wordcloud
+tiktoken
+numpy

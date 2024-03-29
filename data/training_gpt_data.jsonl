@@ -1,6 +1,54 @@
-{"messages": [{"role": "system", "content": "This is a parameter-based prompt for creating marketing materials."}, {"role": "user", "content": "Create a website marketing campaign for a Checking Account aimed at International Students."}, {"role": "assistant", "content": "Explore the world while we handle your finances. Our Student Explorer Checking Account is tailored for international students offering multi-currency functionality and global access. Sign up today and take your banking across borders."}]}
-{"messages": [{"role": "system", "content": "This is a parameter-based prompt for creating marketing materials."}, {"role": "user", "content": "Design an email for a Savings Account promotion targeted at Permanent Residents."}, {"role": "assistant", "content": "Welcome home to savings that grow with you. Our New Beginnings Savings Account for permanent residents offers tiered interest rates to boost your financial growth. Start your journey with us and watch your savings flourish."}]}
-{"messages": [{"role": "system", "content": "This is a parameter-based prompt for creating marketing materials."}, {"role": "user", "content": "Craft a social media post advertising a Mortgage product for Foreign Workers."}, {"role": "assistant", "content": "Turn your work abroad into a home. Our Global Worker Mortgage plan offers competitive rates and flexible terms designed for foreign workers seeking a piece of home. Connect with us to find out more."}]}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "This is a parameter-based prompt for creating marketing materials."
+        },
+        {
+            "role": "user",
+            "content": "Create a website marketing campaign for a Checking Account aimed at International Students."
+        },
+        {
+            "role": "assistant",
+            "content": "Explore the world while we handle your finances. Our Student Explorer Checking Account is tailored for international students 
+            offering multi-currency functionality and global access. Sign up today and take your banking across borders."
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "This is a parameter-based prompt for creating marketing materials."
+        },
+        {
+            "role": "user",
+            "content": "Design an email for a Savings Account promotion targeted at Permanent Residents."
+        },
+        {
+            "role": "assistant",
+            "content": "Welcome home to savings that grow with you. Our New Beginnings Savings Account for permanent residents offers tiered interest rates 
+            to boost your financial growth. Start your journey with us and watch your savings flourish."
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "This is a parameter-based prompt for creating marketing materials."
+        },
+        {
+            "role": "user",
+            "content": "Craft a social media post advertising a Mortgage product for Foreign Workers."
+        },
+        {
+            "role": "assistant",
+            "content": "Turn your work abroad into a home. Our Global Worker Mortgage plan offers competitive rates and flexible terms designed for 
+            foreign workers seeking a piece of home. Connect with us to find out more."
+        }
+    ]
+}
 {"messages": [{"role": "system", "content": "This is a parameter-based prompt for creating marketing materials."}, {"role": "user", "content": "Compose an enticing email offer for a Student Checking Account for new university enrollments."}, {"role": "assistant", "content": "Kickstart your university life with our CampusEdge Checking! Exclusive for students 17-23 enjoy no fees mobile banking and a bonus $100 when you use your debit card. Embrace financial independence with us."}]}
 {"messages": [{"role": "system", "content": "This is a parameter-based prompt for creating marketing materials."}, {"role": "user", "content": "Develop a social media update on the benefits of a High Interest Savings Account for young adults."}, {"role": "assistant", "content": "Young savers it's time to make your money work for you! With our Youth High-Interest Savings Account enjoy no fees and top-tier interest rates. Your goals are within reach\u2014start saving today!"}]}
 {"messages": [{"role": "system", "content": "This is a parameter-based prompt for creating marketing materials."}, {"role": "user", "content": "Generate a concise website snippet about the Online Bill Pay feature for busy professionals."}, {"role": "assistant", "content": "Bill payments simplified. Our Online Bill Pay is perfect for professionals on the go. Schedule payments set reminders and never miss a due date again. Experience the convenience of our digital banking solutions."}]}

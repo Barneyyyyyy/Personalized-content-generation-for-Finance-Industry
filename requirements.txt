@@ -9,3 +9,4 @@ wordcloud
 tiktoken
 numpy
 bs4
+scikit-learn

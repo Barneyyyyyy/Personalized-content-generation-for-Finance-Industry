@@ -1,0 +1,41 @@
+[
+  {
+    "type": "AT",
+    "name": "Account Type",
+    "options": [
+      { "id": 1, "desc": "Personal" },
+      { "id": 2, "desc": "Business" }
+    ]
+  },
+  {
+    "type": "CT",
+    "name": "Content Type",
+    "options": [
+      { "id": 1, "desc": "Article" },
+      { "id": 2, "desc": "Blog" },
+      { "id": 3, "desc": "Social Media Post" },
+      { "id": 4, "desc": "Email" }
+    ]
+  },
+  {
+    "type": "A",
+    "name": "Audience",
+    "options": [
+      { "id": 1, "desc": "General" },
+      { "id": 2, "desc": "Technical" },
+      { "id": 3, "desc": "Medical" },
+      { "id": 4, "desc": "Legal" },
+      { "id": 5, "desc": "Academic" },
+      { "id": 6, "desc": "Creative" }
+    ]
+  },
+  {
+    "type": "T",
+    "name": "Tone",
+    "options": [
+      { "id": 1, "desc": "Formal" },
+      { "id": 2, "desc": "Informal" },
+      { "id": 3, "desc": "Professional" }
+    ]
+  }
+]

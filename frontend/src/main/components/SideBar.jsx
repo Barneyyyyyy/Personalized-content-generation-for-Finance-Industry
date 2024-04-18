@@ -12,28 +12,31 @@ import {
   InputLabel,
 } from "@mui/material";
 import { useState, useEffect } from "react";
-import { useHeadlineHook } from "../hook/headline_hook";
+import { useDispatch, useSelector } from "react-redux";
+import { getParameters, setParameters } from "../../store/params";
 
 export const SideBar = ({ drawerWidth }) => {
+  const dispatch = useDispatch();
+  const { params, error } = useSelector((state) => state.params);
+
   const [accountType, setAccountType] = useState("");
   const [contentType, setContentType] = useState("");
   const [audience, setAudience] = useState("");
-  const [tone, setTone] = useState("");
-  const [dropDownList, setDropDowns] = useState([]);
-  const { setHeadline } = useHeadlineHook();
+  const [model, setModel] = useState("");
+
+  const onClickGenerate = () => {
+    const params = {
+      accountType,
+      contentType,
+      audience,
+      model,
+    };
+
+    dispatch(setParameters(params));
+  };
 
   useEffect(() => {
-    const fetchAllDropDowns = async () => {
-      const response = await fetch("http://127.0.0.1:8000/");
-      const fetchedDropDowns = await response.json();
-      setDropDowns(fetchedDropDowns);
-    };
-
-    const interval = setInterval(fetchAllDropDowns, 1000);
-
-    return () => {
-      clearInterval(interval);
-    };
+    dispatch(getParameters());
   }, []);
 
   const handleChange = (event) => {
@@ -49,8 +52,8 @@ export const SideBar = ({ drawerWidth }) => {
         case "A":
           setAudience(value);
           break;
-        case "T":
-          setTone(value);
+        case "M":
+          setModel(value);
           break;
         default:
           break;
@@ -62,13 +65,7 @@ export const SideBar = ({ drawerWidth }) => {
     setAccountType("");
     setContentType("");
     setAudience("");
-    setTone("");
-  };
-
-  const updateHeadline = () => {
-    setHeadline(
-      `Account Type: ${accountType}\nContent Type: ${contentType}\nAudience: ${audience}\nTone: ${tone}`
-    );
+    setModel("");
   };
 
   return (
@@ -93,6 +90,7 @@ export const SideBar = ({ drawerWidth }) => {
             Start Creating with AI
           </Typography>
         </Toolbar>
+
         <Typography
           variant="h7"
           noWrap
@@ -105,10 +103,22 @@ export const SideBar = ({ drawerWidth }) => {
           Generate Content
         </Typography>
 
+        <Typography
+          component="div"
+          sx={{
+            pt: 3,
+            pl: 3,
+            pb: 1,
+          }}
+        >
+          Please choose the options below to customize the content you want to
+          generate
+        </Typography>
+
         <Divider />
 
         <List>
-          {dropDownList.map((e) => (
+          {params.map((e) => (
             <Box sx={{ m: 3 }} key={e.type}>
               <FormControl fullWidth>
                 <InputLabel id="demo-simple-select-label">{e.name}</InputLabel>
@@ -122,7 +132,7 @@ export const SideBar = ({ drawerWidth }) => {
                       ? contentType
                       : e.type === "A"
                       ? audience
-                      : tone
+                      : model
                   }
                   label={e.name}
                   onChange={(event) =>
@@ -140,10 +150,23 @@ export const SideBar = ({ drawerWidth }) => {
           ))}
         </List>
 
+        <Typography
+          variant="h7"
+          noWrap
+          component="div"
+          sx={{ pl: 3, color: "red" }}
+        >
+          {error}
+        </Typography>
+
         <Box sx={{ flexGrow: 1 }} />
-        <Divider />
         <Box sx={{ p: 1, display: "flex", justifyContent: "center" }}>
-          <Button variant="contained" color="primary" onClick={updateHeadline}>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={onClickGenerate}
+            sx={{ width: "100%" }}
+          >
             Generate
           </Button>
         </Box>

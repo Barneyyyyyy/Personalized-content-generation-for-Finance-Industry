@@ -1,5 +1,5 @@
 # Normal way
-def dropDownItemEntity(item) -> dict:
+def paramEntity(item) -> dict:
     return {
         "type": str(item["_id"]),
         "name": item["name"],
@@ -7,8 +7,8 @@ def dropDownItemEntity(item) -> dict:
     }
 
 
-def dropDownItemsEntity(entity) -> list:
-    return [dropDownItemEntity(item) for item in entity]
+def paramsEntity(entity) -> list:
+    return [paramEntity(item) for item in entity]
 # Best way
 
 

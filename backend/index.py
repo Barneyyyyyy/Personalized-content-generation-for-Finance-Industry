@@ -1,7 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routes.drop_down_item import drop_down_item
+from routes.param import param
+from routes.chat_req import chat_req
+from routes.prompt import prompt
+
 app = FastAPI()
 # List of allowed origins (i.e., frontend URLs that can make requests to this backend)
 origins = [
@@ -18,4 +21,6 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 
-app.include_router(drop_down_item)
+app.include_router(param)
+app.include_router(chat_req)
+app.include_router(prompt)

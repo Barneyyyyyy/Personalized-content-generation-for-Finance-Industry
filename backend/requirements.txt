@@ -2,3 +2,6 @@ virtualenv
 fastapi 
 pymongo 
 uvicorn
+openai
+python-dotenv
+pydantic

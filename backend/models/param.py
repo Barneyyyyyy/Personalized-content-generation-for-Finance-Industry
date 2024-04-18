@@ -1,7 +1,6 @@
 from pydantic import BaseModel
 
-
-class DropDownItem(BaseModel):
+class Param(BaseModel):
     type: str
     name: str
-    opptions: list[object]
+    options: list[object]

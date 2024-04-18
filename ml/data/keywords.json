@@ -1,0 +1,137 @@
+[
+  {
+    "content_type": "Email",
+    "audience": "International Students",
+    "account_type": "Credit Card"
+  },
+  {
+    "content_type": "Email",
+    "audience": "International Students",
+    "account_type": "Checking"
+  },
+  {
+    "content_type": "Email",
+    "audience": "International Students",
+    "account_type": "Saving"
+  },
+  {
+    "content_type": "Email",
+    "audience": "Foreign Workers",
+    "account_type": "Credit Card"
+  },
+  {
+    "content_type": "Email",
+    "audience": "Foreign Workers",
+    "account_type": "Checking"
+  },
+  {
+    "content_type": "Email",
+    "audience": "Foreign Workers",
+    "account_type": "Saving"
+  },
+  {
+    "content_type": "Email",
+    "audience": "Permanent Residents",
+    "account_type": "Credit Card"
+  },
+  {
+    "content_type": "Email",
+    "audience": "Permanent Residents",
+    "account_type": "Checking"
+  },
+  {
+    "content_type": "Email",
+    "audience": "Permanent Residents",
+    "account_type": "Saving"
+  },
+  {
+    "content_type": "Website Content",
+    "audience": "International Students",
+    "account_type": "Credit Card"
+  },
+  {
+    "content_type": "Website Content",
+    "audience": "International Students",
+    "account_type": "Checking"
+  },
+  {
+    "content_type": "Website Content",
+    "audience": "International Students",
+    "account_type": "Saving"
+  },
+  {
+    "content_type": "Website Content",
+    "audience": "Foreign Workers",
+    "account_type": "Credit Card"
+  },
+  {
+    "content_type": "Website Content",
+    "audience": "Foreign Workers",
+    "account_type": "Checking"
+  },
+  {
+    "content_type": "Website Content",
+    "audience": "Foreign Workers",
+    "account_type": "Saving"
+  },
+  {
+    "content_type": "Website Content",
+    "audience": "Permanent Residents",
+    "account_type": "Credit Card"
+  },
+  {
+    "content_type": "Website Content",
+    "audience": "Permanent Residents",
+    "account_type": "Checking"
+  },
+  {
+    "content_type": "Website Content",
+    "audience": "Permanent Residents",
+    "account_type": "Saving"
+  },
+  {
+    "content_type": "Social Media Post",
+    "audience": "International Students",
+    "account_type": "Credit Card"
+  },
+  {
+    "content_type": "Social Media Post",
+    "audience": "International Students",
+    "account_type": "Checking"
+  },
+  {
+    "content_type": "Social Media Post",
+    "audience": "International Students",
+    "account_type": "Saving"
+  },
+  {
+    "content_type": "Social Media Post",
+    "audience": "Foreign Workers",
+    "account_type": "Credit Card"
+  },
+  {
+    "content_type": "Social Media Post",
+    "audience": "Foreign Workers",
+    "account_type": "Checking"
+  },
+  {
+    "content_type": "Social Media Post",
+    "audience": "Foreign Workers",
+    "account_type": "Saving"
+  },
+  {
+    "content_type": "Social Media Post",
+    "audience": "Permanent Residents",
+    "account_type": "Credit Card"
+  },
+  {
+    "content_type": "Social Media Post",
+    "audience": "Permanent Residents",
+    "account_type": "Checking"
+  },
+  {
+    "content_type": "Social Media Post",
+    "audience": "Permanent Residents",
+    "account_type": "Saving"
+  }
+]

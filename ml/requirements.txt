@@ -10,3 +10,4 @@ tiktoken
 numpy
 bs4
 scikit-learn
+spacy
